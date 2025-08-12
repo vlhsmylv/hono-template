@@ -1,5 +1,5 @@
 {
-  "name": "hono-template",
+  "name": "honoko",
   "version": "1.0.0",
   "description": "Production-ready TypeScript API template built with Hono, Prisma, and modern tooling",
   "scripts": {

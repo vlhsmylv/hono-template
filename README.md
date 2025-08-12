@@ -1,4 +1,4 @@
-# 🔥 Hono Template
+# 🔥 Honoko Template
 
 Production-ready TypeScript API template built with modern tooling and best practices.
 
@@ -7,8 +7,9 @@ Production-ready TypeScript API template built with modern tooling and best prac
 - ⚡ **Lightning Fast** - Built with Hono, ultra-fast web framework
 - 🔒 **Type Safe** - Full TypeScript support with Zod validation
 - 🗃️ **Database Ready** - Prisma ORM with PostgreSQL support
-- 📚 **API Documentation** - Auto-generated OpenAPI docs with Swagger UI
-- 🔑 **Authentication** - JWT middleware included
+- 📚 **Dual API Docs** - Auto-generated OpenAPI docs with Swagger UI & Fiberplane
+- 🔄 **API Versioning** - Path-based versioning strategy (`/api/v1`)
+- 🔑 **Auth Ready** - JWT authentication with refresh tokens
 - 🚀 **Deploy Anywhere** - Works on Cloudflare Workers, Vercel, and more
 - 🐳 **Docker Ready** - Production Dockerfile included
 - 🪝 **Git Hooks** - Prettier, linting, and commit message validation
@@ -48,29 +49,29 @@ open http://localhost:3000
 - **Swagger UI**: [http://localhost:3000/swagger](http://localhost:3000/swagger)
 - **Fiberplane**: [http://localhost:3000/fp](http://localhost:3000/fp)
 
-## 🔄 API Versioning
+## 🔄 API Versioning - Third Form: Blazing Universe
 
-The API uses URL path versioning for backward compatibility:
+The API uses URL path versioning for backward compatibility (_like mastering different flame forms_):
 
 ```
-/api/v1/users     # Version 1 endpoints
-/api/v2/users     # Version 2 endpoints (future)
+/api/v1/users     # First Form: Unknowing Fire
+/api/v2/users     # Second Form: Rising Scorching Sun (future)
 ```
 
-- **Current Version**: `v1`
+- **Current Version**: `v1` (_Master one form before moving to the next_)
 - **Base URL**: `/api/v1`
-- **Versioning Strategy**: Path-based versioning for clear separation
-- **Backward Compatibility**: Previous versions remain available
+- **Versioning Strategy**: Path-based versioning for clear separation (_Each form has its purpose_)
+- **Backward Compatibility**: Previous versions remain available (_Honor the old ways_)
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack - Fourth Form: Blooming Flame Undulation
 
-- **Runtime**: Bun
-- **Framework**: Hono
-- **Database**: PostgreSQL + Prisma ORM
-- **Validation**: Zod
-- **Documentation**: OpenAPI + Swagger UI
-- **Code Quality**: Prettier + ESLint + Husky
-- **Deployment**: Docker
+- **Runtime**: Bun (_Swift as flame_)
+- **Framework**: Hono (_The eternal flame_)
+- **Database**: PostgreSQL + Prisma ORM (_Unyielding foundation_)
+- **Validation**: Zod (_Pure intentions_)
+- **Documentation**: OpenAPI + Swagger UI (_Clear as daylight_)
+- **Code Quality**: Prettier + ESLint + Husky (_Discipline of a hashira_)
+- **Deployment**: Docker (_Portable flames_)
 
 ## 📁 Project Structure
 
@@ -265,7 +266,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-Created by [Valeh Ismayilov](https://www.valehismayilov.com)
+**Built with ❤️ by [Valeh Ismayilov](https://www.valehismayilov.com)**
+
+*Hono no Kokyu ;)*
 
 ---
 
