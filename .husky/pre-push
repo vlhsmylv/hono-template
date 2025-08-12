@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run tests before push
+if [ -f "package.json" ] && grep -q '"test"' package.json; then
+  echo "🧪 Running tests..."
+  bun test
+fi
+
+# Type check
+echo "🔍 Type checking..."
+bun run tsc --noEmit
+
+echo "✅ Pre-push checks passed!"

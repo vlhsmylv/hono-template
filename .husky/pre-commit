@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run prettier
+bun prettier --write .
+
+# Run linting
+bun run lint
+
+# Add formatted files back to staging
+git add .

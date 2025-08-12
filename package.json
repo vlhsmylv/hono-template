@@ -1,0 +1,55 @@
+{
+  "name": "hono-template",
+  "version": "1.0.0",
+  "description": "Production-ready TypeScript API template built with Hono, Prisma, and modern tooling",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "build": "tsc",
+    "start": "bun run dist/index.js",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,json}\"",
+    "type-check": "tsc --noEmit",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@fiberplane/hono": "^0.5.5",
+    "@hono/swagger-ui": "^0.5.2",
+    "@hono/zod-openapi": "^1.1.0",
+    "@prisma/client": "^6.13.0",
+    "bcrypt": "^6.0.0",
+    "hono": "^4.9.1",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.13.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/bun": "latest",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "husky": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "hono",
+    "typescript",
+    "api",
+    "template",
+    "prisma",
+    "jwt",
+    "authentication"
+  ],
+  "author": "Valeh Ismayilov",
+  "license": "MIT"
+}

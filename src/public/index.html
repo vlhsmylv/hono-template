@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Hono Template - Production Ready API</title>
+    <meta
+      name="description"
+      content="Modern TypeScript API template built with Hono, Prisma, and Zod validation"
+    />
+  </head>
+  <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
+    <div class="container mx-auto px-6 py-12">
+      <!-- Header -->
+      <div class="text-center mb-12">
+        <h1 class="text-5xl font-bold text-gray-900 mb-4">🔥 Hono Template</h1>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Production-ready TypeScript API template with modern tooling and best
+          practices
+        </p>
+      </div>
+
+      <!-- Features Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div class="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+          <div class="text-2xl mb-3">⚡</div>
+          <h3 class="text-lg font-semibold mb-2">Lightning Fast</h3>
+          <p class="text-gray-600">
+            Built with Hono - ultra-fast web framework for the edge
+          </p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+          <div class="text-2xl mb-3">🔒</div>
+          <h3 class="text-lg font-semibold mb-2">Type Safe</h3>
+          <p class="text-gray-600">
+            Full TypeScript support with Zod validation schemas
+          </p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+          <div class="text-2xl mb-3">🗃️</div>
+          <h3 class="text-lg font-semibold mb-2">Database Ready</h3>
+          <p class="text-gray-600">
+            Prisma ORM with PostgreSQL support out of the box
+          </p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+          <div class="text-2xl mb-3">📚</div>
+          <h3 class="text-lg font-semibold mb-2">Dual API Docs</h3>
+          <p class="text-gray-600">
+            Swagger UI & Fiberplane for interactive API exploration
+          </p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+          <div class="text-2xl mb-3">🔄</div>
+          <h3 class="text-lg font-semibold mb-2">API Versioning</h3>
+          <p class="text-gray-600">
+            Built-in versioning strategy with backward compatibility
+          </p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+          <div class="text-2xl mb-3">🔑</div>
+          <h3 class="text-lg font-semibold mb-2">Auth Ready</h3>
+          <p class="text-gray-600">JWT authentication middleware included</p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+          <div class="text-2xl mb-3">🐳</div>
+          <h3 class="text-lg font-semibold mb-2">Docker Ready</h3>
+          <p class="text-gray-600">
+            Production Dockerfile with security best practices
+          </p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+          <div class="text-2xl mb-3">🪝</div>
+          <h3 class="text-lg font-semibold mb-2">Git Hooks</h3>
+          <p class="text-gray-600">
+            Prettier, linting, and commit message validation
+          </p>
+        </div>
+
+        <div class="bg-white rounded-lg p-6 shadow-lg border border-gray-200">
+          <div class="text-2xl mb-3">🚀</div>
+          <h3 class="text-lg font-semibold mb-2">Deploy Anywhere</h3>
+          <p class="text-gray-600">
+            Works on Cloudflare Workers, Vercel, and more
+          </p>
+        </div>
+      </div>
+
+      <!-- Tech Stack -->
+      <div
+        class="bg-white rounded-lg p-8 shadow-lg border border-gray-200 mb-12"
+      >
+        <h2 class="text-2xl font-bold text-center mb-6">Tech Stack</h2>
+        <div class="flex flex-wrap justify-center gap-4">
+          <span
+            class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium"
+            >TypeScript</span
+          >
+          <span
+            class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full font-medium"
+            >Hono</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full font-medium"
+            >Prisma</span
+          >
+          <span
+            class="bg-purple-100 text-purple-800 px-4 py-2 rounded-full font-medium"
+            >Zod</span
+          >
+          <span
+            class="bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium"
+            >PostgreSQL</span
+          >
+          <span
+            class="bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full font-medium"
+            >Bun</span
+          >
+        </div>
+      </div>
+
+      <!-- Quick Start -->
+      <div class="bg-gray-900 rounded-lg p-8 text-white mb-12">
+        <h2 class="text-2xl font-bold mb-4">Quick Start</h2>
+        <div
+          class="bg-gray-800 rounded-lg p-4 font-mono text-sm overflow-x-auto"
+        >
+          <div class="mb-2">
+            <span class="text-green-400">$</span> git clone
+            https://github.com/vlhsmylv/hono-template.git
+          </div>
+          <div class="mb-2">
+            <span class="text-green-400">$</span> cd hono-template
+          </div>
+          <div class="mb-2">
+            <span class="text-green-400">$</span> bun install
+          </div>
+          <div class="mb-2">
+            <span class="text-green-400">$</span> cp .env.example .env
+          </div>
+          <div><span class="text-green-400">$</span> bun dev</div>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="text-center">
+        <div class="flex justify-center gap-4 mb-8">
+          <a
+            href="/swagger"
+            class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+          >
+            📖 Swagger Docs
+          </a>
+          <a
+            href="/fp"
+            class="bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+          >
+            🔥 Fiberplane Docs
+          </a>
+          <a
+            href="https://github.com/vlhsmylv/hono-template"
+            target="_blank"
+            class="bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-900 transition-colors"
+          >
+            ⭐ GitHub
+          </a>
+        </div>
+
+        <p class="text-gray-500 mb-2">
+          Made with ❤️ for the developer community
+        </p>
+        <p class="text-gray-400 text-sm">
+          Created by
+          <a
+            href="https://www.valehismayilov.com"
+            target="_blank"
+            class="text-blue-600 hover:text-blue-700 font-medium"
+            >Valeh Ismayilov</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
